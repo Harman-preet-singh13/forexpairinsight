@@ -6,14 +6,25 @@ const TAGS = [
   },
   {
     id:"2",
-    title: "Basic of GBPJPY",
+    title: "Introduction to GBPJPY",
     url:"GBPJPY"
   },
   {
     id:"3",
-    title: "Basic of USDCAD",
+    title: "Understanding Zone in GJ",
+    url:"UnderstandingZoneGJ"
+  },
+  {
+    id:"4",
+    title: "Line and Reactangle",
+    url:"Reactangle"
+  },
+  {
+    id:"5",
+    title: "Introduction to USDCAD",
     url:"USDCAD"
   },
+
 ];
 
 export default TAGS;

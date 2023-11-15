@@ -5,7 +5,7 @@
 :root {
   --p-color: #1f2a44;
   --s-color: #64748b;
-  --a-color: #4ac8b4;
+  --a-color: rgb(148 163 184);
 
   --bg-color: #ffffff;
   --bg-contrast-color: #f5f5f5;
@@ -40,26 +40,37 @@ body {
   margin: 2.5rem/* 40px */
 }
 
-.heading{
+h1{
   font-size: var(--fs-xl);
   color:var(--contrast-color);
   font-weight: var(--fw-700);
 }
 
-.para{
+p{
   line-height: 2;
   margin:5px;
   width: 75ch;
 }
+
+.img-width-para{
+  max-width:700px;
+}
+
+.img-info-para{
+  font-size: var(--fs-xs);
+  color:var(--a-color);
+}
+
 
 @media (max-width:425px){
   .para{
     margin:0px;
     width: 100%;
   }
+  .img-width-para{
+    max-width:100%;
+  }
 }
-
-
 /* modal */
 .modal-overlay {
   position: fixed;
@@ -128,6 +139,7 @@ body {
 
 .aside-content:hover{
   color:var(--p-color);
+  text-decoration: underline;
 }
 
 .dark-hover-aside-icon{
