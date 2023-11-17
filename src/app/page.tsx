@@ -2,9 +2,10 @@
 import React from "react";
 import useWindowWidth from "./customHook/useWindowWidth";
 import img1 from "../../public/images/landing-page-img.jpg";
+import Link from 'next/link'
+import {AiOutlineLeft,AiOutlineRight} from "react-icons/ai"
 
 export default function page() {
-  const screenSize = useWindowWidth() >= 720;
 
   return (
     <>
@@ -44,22 +45,24 @@ export default function page() {
           Now, after a year on this trading journey, I'm here to share what I've
           learned. Let's embark on this journey with a touch of seriousness and
           a lot of trading insights! 🚀💸
-        </p>
-        
-        </div>
-        <p className="my-5 text-center">
-          Here is my portfolio
-          <a
+         <br></br><a
             href="https://www.harmanpreetsingh.me/"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <span className="text-blue-500 hover:underline">
-              {" "}
-              Harmanpreet Singh.
-            </span>
+          >Here is my {" "}
+            <span className="text-blue-500 underline">
+              
+              portfolio 
+            </span>.{" "} Feel free to contact me.
           </a>
         </p>
+         
+        </div>
+       
+        <Link className="footer-nav-btn flex justify-end" href="getting-started">
+            Getting started<AiOutlineRight className="m-1"/>
+        </Link>
+        
       </main>
     </>
   );

@@ -46,6 +46,13 @@ h1{
   font-weight: var(--fw-700);
 }
 
+h2{
+  padding-top: 18px;
+  font-size: var(--fs-l);
+  color:var(--contrast-color);
+  font-weight: var(--fw-700);
+}
+
 p{
   line-height: 2;
   margin:5px;
