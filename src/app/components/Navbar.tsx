@@ -5,6 +5,7 @@ import useWindowWidth from "../customHook/useWindowWidth";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import TagMenu from "./TagMenu";
+import logo from "../../../public/images/logo.png"
 
 
 export default function Navbar() {
@@ -20,7 +21,16 @@ export default function Navbar() {
       <div className="flex flex-col max-w-[1440px] mx-auto">
         <ul className="navbar-top-section flex justify-center">
           <li className=" self-end">
-            <Link href="/">Home</Link>
+            <Link 
+            href="/"
+            className="flex"
+            >
+              <img src={logo.src}
+              className="w-12"
+              alt="logo"
+              />
+              <span className="mt-1 text-[26px] font-bold">ForexPairInsight</span>
+            </Link>
           </li>
         </ul>
 

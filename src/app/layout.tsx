@@ -20,6 +20,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      
       <body className={`${inter.className} `}>
         <Navbar />
         <div className=" flex max-w-[1440px] mx-auto">
@@ -27,7 +28,6 @@ export default function RootLayout({
             <Sidenav/>
           </div>
           <div>
-            
             {children}
           </div>
         </div>

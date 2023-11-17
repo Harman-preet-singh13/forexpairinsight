@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import useWindowWidth from "./customHook/useWindowWidth";
 import img1 from "../../public/images/landing-page-img.jpg";
 import Link from 'next/link'
 import {AiOutlineLeft,AiOutlineRight} from "react-icons/ai"
