@@ -4,7 +4,7 @@ import img2 from "../../../public/charts/gj/gj-10-30min.jpg";
 import img3 from "../../../public/charts/gj/gj-13-4h.jpg";
 import img4 from "../../../public/charts/gj/gj-14-4h.jpg";
 import img5 from "../../../public/charts/gj/gh-14-1d.jpg";
-import FooterNavBtn from "../components/FooterNavBtn";
+import FooterNavBtn from "@/components/FooterNavBtn";
 
 export default function page() {
   return (

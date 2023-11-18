@@ -8,7 +8,7 @@ import {AiOutlineLeft,AiOutlineRight} from "react-icons/ai"
 export default function FooterNavBtn() {
 
     const pathname = usePathname()
-    const slug = pathname.substring(1);
+    const slug = pathname.substring(6);
  
     const currentIndex = TAGS.findIndex((tag) => tag.url === slug);
 

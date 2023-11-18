@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "../../../public/charts/gj/gj-3-zone1.jpg";
 import img2 from "../../../public/charts/gj/gj-4-zone2.jpg";
 import img3 from "../../../public/charts/gj/gj-5-zone3.jpg";
-import FooterNavBtn from "../components/FooterNavBtn";
+import FooterNavBtn from "@/components/FooterNavBtn";
 
 
 export default function page() {

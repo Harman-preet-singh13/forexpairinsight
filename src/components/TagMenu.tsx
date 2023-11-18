@@ -37,7 +37,7 @@ export default function TagMenu({ closeModal }: TageMenuProps) {
 
           return (
             <li className="aside-content my-1" key={tags.id}>
-              <Link onClick={closeModal} href={tags.url} style={titleStyles}>
+              <Link onClick={closeModal} href={`/Page/${tags.url}`} style={titleStyles}>
                 {tags.title}
               </Link>
             </li>

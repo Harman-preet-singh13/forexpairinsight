@@ -5,7 +5,7 @@ import useWindowWidth from "../customHook/useWindowWidth";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import TagMenu from "./TagMenu";
-import logo from "../../../public/images/logo.png"
+import logo from "../../public/images/logo.png"
 
 
 export default function Navbar() {

@@ -1,5 +1,5 @@
 import React from "react";
-import FooterNavBtn from "../components/FooterNavBtn";
+import FooterNavBtn from "@/components/FooterNavBtn";
 
 
 export default function page() {

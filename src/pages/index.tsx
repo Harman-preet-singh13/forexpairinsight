@@ -3,11 +3,17 @@ import React from "react";
 import img1 from "../../public/images/landing-page-img.jpg";
 import Link from 'next/link'
 import {AiOutlineLeft,AiOutlineRight} from "react-icons/ai"
+import Head from "next/head";
 
 export default function page() {
 
   return (
     <>
+    <Head>
+      <title>
+        ForexPairInsight
+      </title>
+    </Head>
       <main className="width-container">
         <h1 className="heading">About me.</h1>
         <img
@@ -58,7 +64,7 @@ export default function page() {
          
         </div>
        
-        <Link className="footer-nav-btn flex justify-end" href="getting-started">
+        <Link className="footer-nav-btn flex justify-end" href="Page/getting-started">
             Getting started<AiOutlineRight className="m-1"/>
         </Link>
         

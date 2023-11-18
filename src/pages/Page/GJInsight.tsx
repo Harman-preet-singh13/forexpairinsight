@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "../../../public/charts/gj/gj-15-4h.jpg";
 import img2 from "../../../public/charts/gj/gh-16-4h.jpg";
 import img3 from "../../../public/charts/gj/gh-17-30min.jpg";
-import FooterNavBtn from "../components/FooterNavBtn";
+import FooterNavBtn from "@/components/FooterNavBtn";
 
 export default function page() {
   return (
