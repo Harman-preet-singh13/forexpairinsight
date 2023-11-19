@@ -3,12 +3,14 @@ import img1 from "../../../public/charts/gj/gj-3-zone1.jpg";
 import img2 from "../../../public/charts/gj/gj-4-zone2.jpg";
 import img3 from "../../../public/charts/gj/gj-5-zone3.jpg";
 import FooterNavBtn from "@/components/FooterNavBtn";
+import TitleName from "@/components/TitleName";
 
 
 export default function page() {
   return (
     <main className="width-container">
-      <h1 className="heading">Understanding Zone in GJBJPY</h1>
+      <TitleName />
+      <h1 className="heading">Understanding Zone in GBPJPY</h1>
       <p >
         Zones play a significant role in forex. Every currency or stock has its
         major resistance and support levels. Understanding these levels allows

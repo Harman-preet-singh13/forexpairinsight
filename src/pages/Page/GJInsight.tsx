@@ -3,10 +3,12 @@ import img1 from "../../../public/charts/gj/gj-15-4h.jpg";
 import img2 from "../../../public/charts/gj/gh-16-4h.jpg";
 import img3 from "../../../public/charts/gj/gh-17-30min.jpg";
 import FooterNavBtn from "@/components/FooterNavBtn";
+import TitleName from "@/components/TitleName";
 
 export default function page() {
   return (
     <main className="width-container">
+      <TitleName />
       <h1>GBPJPY Insight</h1>
       <p className="italic">
         "Predicting the future is a human ability; the challenge lies in the
@@ -45,7 +47,7 @@ export default function page() {
       <img src={img3.src} alt="30 min opening" className="img-width-para" />
       <p className="img-info-para">Fig1.3- 30min opening</p>
       <p>
-        This is same chart but smaller timeframe Time (Red box-Time-13:30IST), as illustrated in Fig 1.3, where one can apply
+        This is same chart but smaller timeframe (Red box-Time-13:30IST), as illustrated in Fig 1.3, where one can apply
         specific trading techniques for making informed entries.
       </p>
       <FooterNavBtn />

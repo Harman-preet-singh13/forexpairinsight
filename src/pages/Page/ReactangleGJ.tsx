@@ -3,10 +3,12 @@ import img1 from "../../../public/charts/gj/gj--6-rectangle1.jpg";
 import img2 from "../../../public/candleStickPattern/Tweezer-Top.jpg";
 import img3 from "../../../public/charts/gj/gj-4-zone2.jpg";
 import FooterNavBtn from "@/components/FooterNavBtn";
+import TitleName from "@/components/TitleName";
 
 export default function page() {
   return (
     <main className="width-container">
+      <TitleName />
       <h1>Reactagles in GBPJPY</h1>
       <h2>Drawing Reactangle in GJ</h2>
       <p>

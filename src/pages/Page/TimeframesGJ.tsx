@@ -5,10 +5,12 @@ import img3 from "../../../public/charts/gj/gj-13-4h.jpg";
 import img4 from "../../../public/charts/gj/gj-14-4h.jpg";
 import img5 from "../../../public/charts/gj/gh-14-1d.jpg";
 import FooterNavBtn from "@/components/FooterNavBtn";
+import TitleName from "@/components/TitleName";
 
 export default function page() {
   return (
     <main className="width-container">
+      <TitleName />
       <h1>Timeframes Unveiled: A Deep Dive from 30 Minutes to Daily Charts</h1>
       <p>
         Dive into the world of trading timeframes in 'Timeframes Unveiled.' From

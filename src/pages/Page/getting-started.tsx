@@ -1,10 +1,12 @@
 import React from "react";
 import FooterNavBtn from "@/components/FooterNavBtn";
+import TitleName from "@/components/TitleName";
 
 
 export default function page() {
   return (
     <div className="width-container">
+      <TitleName />
       <h1 className="heading">Getting started.</h1>
      
         <div>

@@ -1,9 +1,12 @@
 import React from "react";
 import FooterNavBtn from "@/components/FooterNavBtn";
+import TitleName from "@/components/TitleName";
 
 export default function page() {
   return (
+    
     <main className="width-container">
+      <TitleName />
       <h1 className="heading">Introduction to GBPJPY</h1>
       <div>
         <p className="para">

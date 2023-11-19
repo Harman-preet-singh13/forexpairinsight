@@ -3,10 +3,12 @@ import img1 from "../../../public/charts/gj/gj-7-opening.jpg";
 import img2 from "../../../public/charts/gj/gj-8-No-Entry.jpg";
 import img3 from "../../../public/candleStickPattern/Hammer.jpg";
 import FooterNavBtn from "@/components/FooterNavBtn";
+import TitleName from "@/components/TitleName";
 
 export default function page() {
   return (
     <main className="width-container">
+      <TitleName />
       <h1>Trade With Volume</h1>
       <p>
         Trading with volume involves analyzing the number of shares or contracts

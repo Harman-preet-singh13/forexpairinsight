@@ -1,7 +1,12 @@
+import FooterNavBtn from '@/components/FooterNavBtn'
+import TitleName from '@/components/TitleName'
 import React from 'react'
 
 export default function page() {
   return (
-    <div>USDCAD</div>
+    <main className="width-container">
+      <TitleName />
+      <FooterNavBtn />
+    </main>
   )
 }
