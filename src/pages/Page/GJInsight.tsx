@@ -11,15 +11,15 @@ export default function page() {
       <TitleName />
       <h1>GBPJPY Insight</h1>
       <p className="italic">
-        "Predicting the future is a human ability; the challenge lies in the
-        trouble that surprises bring. That's where it all matters."
+      &quot;Predicting the future is a human ability; the challenge lies in the
+        trouble that surprises bring. That&apos;s where it all matters.&quot;
       </p>
       <p>
         In past articles, I have shared tips that may aid you in trading.
         However, the truth remains that in trading, nothing is certain. Even if
-        you execute all the right steps, there's a possibility that a trade may
+        you execute all the right steps, there&apos;s a possibility that a trade may
         not go as planned. My approach is always to enter trades where my
-        chances of winning are around 70%. Yet, once I've taken the trade, I
+        chances of winning are around 70%. Yet, once I&apos;ve taken the trade, I
         remind myself that there is an equal 50% chance of winning and losing.
         Keeping these considerations in mind, I am now going to delve into the
         personality traits of GJ.
@@ -27,7 +27,7 @@ export default function page() {
       <h2>Personality Traits of GJ</h2>
       <p>
         <span className="text-lg font-semibold">Retest: </span>Numerous times,
-        I've emphasized the significance of the term 'retest' in my previous
+        I&apos;ve emphasized the significance of the term &apos;retest&apos; in my previous
         articles, particularly in the context of GJ trading. However, the
         challenge arises in how to accurately identify these retracements.
       </p>

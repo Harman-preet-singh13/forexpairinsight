@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import img1 from "../../../public/charts/gj/gj-9-30min.jpg";
 import img2 from "../../../public/charts/gj/gj-10-30min.jpg";
@@ -13,7 +14,7 @@ export default function page() {
       <TitleName />
       <h1>Timeframes Unveiled: A Deep Dive from 30 Minutes to Daily Charts</h1>
       <p>
-        Dive into the world of trading timeframes in 'Timeframes Unveiled.' From
+        Dive into the world of trading timeframes in &apos;Timeframes Unveiled.&apos; From
         quick 30-minute snapshots to the broader daily view, I break down each
         interval to help navigate short-term shifts and long-term trends.
       </p>

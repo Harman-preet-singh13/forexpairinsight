@@ -38,7 +38,7 @@ export default function page() {
       <p>
         In Fig 1.1, during the Japanese high-volume market time, the candlestick
         is merely testing the resistance. However, during the GB opening, there
-        is a significant hammer candle. That's where I am entering. This is due
+        is a significant hammer candle. That&apos;s where I am entering. This is due
         to two reasons: first, the market is in an uptrend, and second, there is
         a hammer candlestick retesting the resistance.
       </p>

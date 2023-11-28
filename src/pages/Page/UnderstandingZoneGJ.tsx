@@ -18,11 +18,11 @@ export default function page() {
         tendency to retest zones multiple times, at least twice.
       </p>
       <p>
-        Understanding major zones is crucial when entering any trade. Let's
+        Understanding major zones is crucial when entering any trade. Let&apos;s
         begin with simple yet essential zones applicable to any stock or
         currency. In charts, zones that conclude with a zero hold significance.
         This is because the human mind has a natural affinity for numbers that
-        end with zero – there's a certain visual appeal to it.
+        end with zero and, there&apos;s a certain visual appeal to it.
       </p>
       <img src={img1.src} alt="GJ zone1" className="img-width-para" />
       <p className="img-info-para">Fig1.1-GBPJPY zone</p>
