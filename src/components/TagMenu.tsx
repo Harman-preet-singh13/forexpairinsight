@@ -31,7 +31,7 @@ export default function TagMenu({ closeModal }: TageMenuProps) {
           tags.title === "Introduction to USDCAD" ||
           tags.title === "Weekly Market Insight"
             ? ""
-            : "12px",
+            : "14px",
         paddingLeft:
           tags.title === "Getting Started" ||
           tags.title === "Introduction to GBPJPY" ||
