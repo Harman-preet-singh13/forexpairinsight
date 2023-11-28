@@ -57,6 +57,7 @@ p{
   line-height: 2;
   margin:5px;
   width: 75ch;
+  padding-top: 6px;
 }
 
 .img-width-para{
@@ -70,7 +71,7 @@ p{
 
 
 @media (max-width:425px){
-  .para{
+  p{
     margin:0px;
     width: 100%;
   }

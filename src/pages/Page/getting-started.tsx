@@ -10,7 +10,7 @@ export default function page() {
       <h1 className="heading">Getting started.</h1>
      
         <div>
-        <p className="para">
+        <p>
           Welcome to the ForexPairInsight! Before we dive into the intricacies
           of trading, let&apos;s take a moment to understand the &quot;why&quot; behind this
           journey, inspired by Simon Sinek&apos;s wisdom in his book{" "}
@@ -23,19 +23,19 @@ export default function page() {
             &quot;Start with Why.&quot;
           </a>
         </p>
-        <p className="para">
+        <p >
           In the world of trading, having a strong purpose is like having a
           compass guiding you through the markets&apos;s twists and turns, helping you
           stay focused and motivated. So, why am I creating this website?
         </p>
-        <p className="para">
+        <p >
           Simply put, I want to share my insights on trading. Beyond treating
           stocks and currency as mere lines of code, I believe there&apos;s a deeper
           layer. The movements of stocks and currency are influenced by news,
           and the timing of trades. I see each currency or stock as having its
           own distinct personality, experiencing both good and bad times.
         </p>
-        <p className="para">
+        <p>
           Sometimes, it revisits the zone or resistance, while at other
           times, it charts its own course without a second glance. Every stock
           and currency has its unique traits, with different resistance zones.
@@ -43,7 +43,7 @@ export default function page() {
           GBPJPY and USDCAD.
         </p>
         
-        <p className="para">
+        <p>
           Even if you haven&apos;t traded these currencies before, don&apos;t worry. What
           I&apos;m explaining here is more about understanding the personality of
           these currencies. The same principles can be apply to

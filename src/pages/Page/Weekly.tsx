@@ -6,9 +6,9 @@ export default function Weekly() {
   return (
     <main className="width-container">
       <TitleName />
-      <h1>Weekly Market Insight</h1>
-      <p className="italic my-5">&quot;Consistency is the key to Success&quot;</p>
-      <p>
+      <h1 className="heading">Weekly Market Insight</h1>
+      <p className="italic">&quot;Consistency is the key to Success&quot;</p>
+      <p >
         Welcome to &quot;Weekly Market Insights,&quot; Being consistent is better than
         relying solely on luck.
       </p>
