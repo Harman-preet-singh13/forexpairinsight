@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import img1 from "../../../public/charts/gj/gj-7-opening.jpg";
 import img2 from "../../../public/charts/gj/gj-8-No-Entry.jpg";
@@ -59,9 +60,17 @@ export default function page() {
       </p>
       <p>
       Important times
-        to note are 06:30, 10:30, 14:30, 16:30, 18:30, 19:30, and 22:30 IST.
+        to note are{" "}
+        <strong>06:30</strong>,{" "}
+        <strong>10:30</strong>,{" "}
+        <strong>14:30</strong>,{" "} 
+        <strong>16:30</strong>,{" "}
+        <strong>18:30</strong>,{" "}
+        <strong>19:30</strong>, and{" "}
+        <strong>22:30 IST</strong>.
         During these time market is most liquid. 
       </p>
+      
       <p>
         06:30-10:30 IST- Japanese market
       </p>
@@ -70,6 +79,9 @@ export default function page() {
       </p>
       <p>
         18:30-19:30 IST- USA market
+      </p>
+      <p>
+        Here, I am mentioning summer time. 
       </p>
       <FooterNavBtn />
     </main>

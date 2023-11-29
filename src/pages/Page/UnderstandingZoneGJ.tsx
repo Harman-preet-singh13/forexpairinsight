@@ -27,12 +27,16 @@ export default function page() {
       <img src={img1.src} alt="GJ zone1" className="img-width-para" />
       <p className="img-info-para">Fig1.1-GBPJPY zone</p>
       <p>
-        Here are some important zone to note for weekly charts-149.00, 156.00,
-        171.00, 186.75, and 192.42
+        Here are some important zone to note for weekly charts-
+        <strong>149.00</strong>,{" "} 
+        <strong>156.00</strong>,{" "}
+        <strong>171.00</strong>,{" "}
+        <strong>186.75</strong>, and{" "}
+        <strong>192.42</strong>.  
       </p>
       
       <p>
-        I like to represent zones in two ways. One way is using lines as zones,
+        I like to represent zones using lines as zones,
         which is more useful in 1-month, 1-week, and 1-day charts. The other way
         is by using rectangles, which is useful in smaller time phases such as 4
         hours, 1 hour, and so on.

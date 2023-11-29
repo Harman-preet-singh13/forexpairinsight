@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import img1 from "../../../public/charts/gj/gj--6-rectangle1.jpg";
 import img2 from "../../../public/candleStickPattern/Tweezer-Top.jpg";

@@ -30,10 +30,6 @@ export default function Weekly() {
           forexfactory.com
         </a>
       </p>
-
-      <p>
-        
-      </p>
       <FooterNavBtn />
     </main>
   );

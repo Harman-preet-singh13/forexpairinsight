@@ -26,7 +26,7 @@ const TAGS = [
   },
   {
     id: "6",
-    title: "Trade With Volume",
+    title: "Trade With Volume GJ",
     url: "VolumeGJ",
   },
   {
@@ -43,6 +43,21 @@ const TAGS = [
     id: "9",
     title: "Introduction to USDCAD",
     url: "USDCAD",
+  },
+  {
+    id: "10",
+    title: "Understanding Zone in USDCAD",
+    url: "UnderstandingZoneUSDCAD",
+  },
+  {
+    id: "11",
+    title: "Reactangle in USDCAD",
+    url: "ReactangleUSDCAD",
+  },
+  {
+    id: "12",
+    title: "Trade With Volume UC",
+    url: "VolumeUSDCAD",
   },
 ];
 
