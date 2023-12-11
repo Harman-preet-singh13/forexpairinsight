@@ -59,6 +59,11 @@ const TAGS = [
     title: "Trade With Volume UC",
     url: "VolumeUSDCAD",
   },
+  {
+    id: "13",
+    title: "Timeframes Unveiled USDCAD",
+    url: "TimeframesUSDCAD",
+  },
 ];
 
 export default TAGS;
