@@ -57,7 +57,7 @@ export default function page() {
               rel="noopener noreferrer"
             >
               Here is my{" "}
-              <span className="text-blue-500 underline">portfolio</span>. Feel
+              <span className="text-blue-500 underline hover:text-blue-700">portfolio</span>. Feel
               free to contact me.
             </a>
             <br></br>I am committed to providing you with{" "} 

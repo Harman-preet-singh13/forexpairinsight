@@ -64,6 +64,11 @@ const TAGS = [
     title: "Timeframes Unveiled USDCAD",
     url: "TimeframesUSDCAD",
   },
+  {
+    id: "14",
+    title: "USDCADInsight",
+    url: "USDCADInsight",
+  },
 ];
 
 export default TAGS;
