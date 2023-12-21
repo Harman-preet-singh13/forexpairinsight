@@ -43,7 +43,7 @@ export default function USDCADInsight() {
 
       <p className="text-slate-500"></p>
       <a
-        href="https://www.harmanpreetsingh.me/"
+        href="https://www.harmanpreetsingh.me/contact"
         target="_blank"
         rel="noopener noreferrer"
       >

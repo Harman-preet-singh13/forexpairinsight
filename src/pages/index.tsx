@@ -52,7 +52,7 @@ export default function page() {
             seriousness and a lot of trading insights! 🚀💸
             <br></br>
             <a
-              href="https://www.harmanpreetsingh.me/"
+              href="https://www.harmanpreetsingh.me/contact"
               target="_blank"
               rel="noopener noreferrer"
             >
