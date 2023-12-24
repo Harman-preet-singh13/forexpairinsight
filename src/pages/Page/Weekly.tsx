@@ -1,8 +1,8 @@
 import FooterNavBtn from "@/components/FooterNavBtn";
 import TitleName from "@/components/TitleName";
 import React from "react";
-import img1 from "../../../public/charts/weekly/gj-10.jpg";
-import img2 from "../../../public/charts/weekly/uc-10.jpg";
+import img1 from "../../../public/charts/weekly/gj-24.jpg";
+import img2 from "../../../public/charts/weekly/uc-24.jpg";
 
 export default function Weekly() {
   return (
@@ -32,22 +32,23 @@ export default function Weekly() {
           forexfactory.com
         </a>
       </p>
-      <h2>Weekly Analysis-10 December</h2>
+      <h2>Weekly Analysis-24 December</h2>
       <h2>GJ Analysis</h2>
 
       <img
         src={img1.src}
-        alt="GJ 10th Dec chart analysis"
+        alt="GJ 24th Dec chart analysis"
         className="img-width-para"
       />
-      <p className="img-info-para">Fig1.1- GJ 10th Dec chart analysis</p>
+      <p className="img-info-para">Fig1.1- GJ 24th Dec chart analysis</p>
       <p>
-        This week, the market experienced a significant meltdown, barely
-        touching 178.500 before rebounding. It seems like GBPJPY will be
-        entering a sideways market phase, a scenario that has occurred quite
-        frequently. While I&apos;m not entirely certain, I have a hunch that it might
-        remain in this sideways pattern for at least a week. Keep an eye on the
-        charts for confirmation!
+        In the current scenario for GJ, there are two possibilities. The first
+        is a potential breakout below the 179.00 support zone. The second is a
+        scenario where the price may retest the 180.00 zone and turn bullish. If
+        a breakout below 179.00 occurs, it&apos;s advisable to wait for a retest
+        of this zone before considering any trading decisions. This approach
+        helps confirm the strength of the breakout and reduces the risk of false
+        signals.
       </p>
 
       <h2>USDCAD Analysis</h2>
@@ -58,11 +59,8 @@ export default function Weekly() {
       />
       <p className="img-info-para">Fig1.2- USDCAD 10th Dec chart analysis</p>
       <p>
-        USDCAD is currently in a consolidation phase, resembling a box pattern.
-        It has the potential to break out in either direction, but it&apso;s worth
-        noting that often, the initial breakout tends to be a fakeout. Exercise
-        caution and stay vigilant in your trading decisions considering this
-        pattern.
+        It appears that USDCAD is exhibiting a bearish trend, at least based on
+        the patterns observed in the daily and weekly candlesticks.
       </p>
       <FooterNavBtn />
     </main>
