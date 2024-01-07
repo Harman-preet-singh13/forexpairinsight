@@ -1,8 +1,8 @@
 import FooterNavBtn from "@/components/FooterNavBtn";
 import TitleName from "@/components/TitleName";
 import React from "react";
-import img1 from "../../../public/charts/weekly/gj-24.jpg";
-import img2 from "../../../public/charts/weekly/uc-24.jpg";
+import img1 from "../../../public/charts/weekly/gj-07.jpg";
+import img2 from "../../../public/charts/weekly/uc--07.jpg";
 
 export default function Weekly() {
   return (
@@ -37,30 +37,26 @@ export default function Weekly() {
 
       <img
         src={img1.src}
-        alt="GJ 24th Dec chart analysis"
+        alt="GJ 7th Jan chart analysis"
         className="img-width-para"
       />
-      <p className="img-info-para">Fig1.1- GJ 24th Dec chart analysis</p>
+      <p className="img-info-para">Fig1.1- GJ 7th Jan chart analysis</p>
       <p>
-        In the current scenario for GJ, there are two possibilities. The first
-        is a potential breakout below the 179.00 support zone. The second is a
-        scenario where the price may retest the 180.00 zone and turn bullish. If
-        a breakout below 179.00 occurs, it&apos;s advisable to wait for a retest
-        of this zone before considering any trading decisions. This approach
-        helps confirm the strength of the breakout and reduces the risk of false
-        signals.
+        This is the third time that GJ has approached this resistance level(184.00). In
+        my experience, a breakout often occurs on the third attempt. However,
+        before considering any trade, it's wise to wait for a retest
       </p>
 
       <h2>USDCAD Analysis</h2>
       <img
         src={img2.src}
-        alt="USDCAD 10th Dec chart analysis"
+        alt="USDCAD 7th Jan chart analysis"
         className="img-width-para"
       />
-      <p className="img-info-para">Fig1.2- USDCAD 10th Dec chart analysis</p>
+      <p className="img-info-para">Fig1.2- USDCAD 7th Jan chart analysis</p>
       <p>
-        It appears that USDCAD is exhibiting a bearish trend, at least based on
-        the patterns observed in the daily and weekly candlesticks.
+        USDCAD is currently trading within the range of 1.38800 to 1.33200. Wait
+        for a breakout confirmed by the closing of a strong candlestick.
       </p>
       <FooterNavBtn />
     </main>
