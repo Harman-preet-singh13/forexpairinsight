@@ -1,8 +1,8 @@
 import FooterNavBtn from "@/components/FooterNavBtn";
 import TitleName from "@/components/TitleName";
 import React from "react";
-import img1 from "../../../public/charts/weekly/gj-07.jpg";
-import img2 from "../../../public/charts/weekly/uc--07.jpg";
+import img1 from "../../../public/charts/weekly/gj-14.jpg";
+import img2 from "../../../public/charts/weekly/uc-14.jpg";
 
 export default function Weekly() {
   return (
@@ -32,31 +32,31 @@ export default function Weekly() {
           forexfactory.com
         </a>
       </p>
-      <h2>Weekly Analysis-24 December</h2>
+      <h2>Weekly Analysis(14-Jan)</h2>
       <h2>GJ Analysis</h2>
 
       <img
         src={img1.src}
-        alt="GJ 7th Jan chart analysis"
+        alt="GJ 14th Jan chart analysis"
         className="img-width-para"
       />
-      <p className="img-info-para">Fig1.1- GJ 7th Jan chart analysis</p>
+      <p className="img-info-para">Fig1.1- GJ 14th Jan chart analysis</p>
       <p>
-        This is the third time that GJ has approached this resistance level(184.00). In
-        my experience, a breakout often occurs on the third attempt. However,
-        before considering any trade, it's wise to wait for a retest
+        It seems like GJ is gearing up for a retest, at least that&apos;s what the
+        indications from the 4-hour and daily charts are suggesting.
       </p>
 
       <h2>USDCAD Analysis</h2>
       <img
         src={img2.src}
-        alt="USDCAD 7th Jan chart analysis"
+        alt="USDCAD 14th Jan chart analysis"
         className="img-width-para"
       />
-      <p className="img-info-para">Fig1.2- USDCAD 7th Jan chart analysis</p>
+      <p className="img-info-para">Fig1.2- USDCAD 14th Jan chart analysis</p>
       <p>
-        USDCAD is currently trading within the range of 1.38800 to 1.33200. Wait
-        for a breakout confirmed by the closing of a strong candlestick.
+        USDCAD is currently moving in a sideways market. I&apos;m keeping an eye
+        out for any strong candlestick closures in the daily chart before making
+        any trading decisions.
       </p>
       <FooterNavBtn />
     </main>
